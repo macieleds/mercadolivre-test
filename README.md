@@ -39,7 +39,7 @@ moedas</li>
 <p class="has-line-data" data-line-start="31" data-line-end="32">Para envio de pagamento, será feita uma requisição POST em:</p>
 <pre><code class="has-line-data" data-line-start="33" data-line-end="35" class="language-sh">http://localhost:<span class="hljsnumber">8080</span>/payers/{payerId}/payments
 </code></pre>
-<p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição serão informados o ID do pagador, o valor dos produtos e o valor total recebido no corpo da requisição, conforme exemplo abaixo:</p>
+<p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição serão informados o ID do pagador na URI, o valor dos produtos e o valor total recebido no corpo da requisição, conforme exemplo abaixo:</p>
 
 <p class="has-line-data" data-line-start="37" data-line-end="38"><img width="650" height="350" img src="https://iili.io/WX94cb.md.png" alt="N|Solid"></p>
 
@@ -48,7 +48,7 @@ moedas</li>
 <p class="has-line-data" data-line-start="31" data-line-end="32">Para listagem de pagamentos do usuário, será feita uma requisição GET em:</p>
 <pre><code class="has-line-data" data-line-start="33" data-line-end="35" class="language-sh">http://localhost:<span class="hljsnumber">8080</span>/payers/{payerId}/payments
 </code></pre>
-<p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição será informado o ID do pagador, conforme exemplo abaixo:</p>
+<p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição será informado o ID do pagador na URI, conforme exemplo abaixo:</p>
 
 <p class="has-line-data" data-line-start="37" data-line-end="38"><img width="650" height="350" img src="https://iili.io/WXFiHg.md.png" alt="N|Solid"></p>
 
