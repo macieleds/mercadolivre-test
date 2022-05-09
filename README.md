@@ -24,8 +24,11 @@ moedas</li>
 
 <h1 class="code-line" data-line-start=23 data-line-end=24 ><a id="Funcionalidades_23"></a>Funcionalidades e instruções de uso</h1>
 <p class="has-line-data" data-line-start="25" data-line-end="28">A API expõe um endpoint que envia um pagamento, tomando como parâmetros o ID do pagador, o valor dos produtos e o valor total recebido e um endpoint que lista todos os pagamentos que um usuário realizou, de acordo com os critérios estabelecidos acima.
-<br>Esse tutorial orienta sobre as funcionalidades da API utilizando o [Postman](https://www.postman.com/) para o envio de requisições.<br>
+<br>Esse tutorial orienta sobre as funcionalidades da API utilizando o [Postman] (https://www.postman.com/) para o envio de requisições.<br>
+  
+<br>O projeto foi desenvolvida utilizando Java 17. Portanto, é importante que a API seja executada utilizando esta versão.<br>  
 
+<p class="has-line-data" data-line-start="37" data-line-end="38"><img width="550" height="400" img src="https://iili.io/WWb3dl.md.png" alt="N|Solid"></p>
 
 
 
@@ -34,11 +37,25 @@ moedas</li>
 
 <h3 class="code-line" data-line-start=29 data-line-end=30 ><a id="1__Criao_de_usurio_29"></a>2 - Envio de pagamento</h3>
 <p class="has-line-data" data-line-start="31" data-line-end="32">Para envio de pagamento, será feita uma requisição POST em:</p>
-<pre><code class="has-line-data" data-line-start="33" data-line-end="35" class="language-sh">http://localhost:<span class="hljs-number">8080</span>payers/{payerId}/payments
+<pre><code class="has-line-data" data-line-start="33" data-line-end="35" class="language-sh">http://localhost:<span class="hljsnumber">8080</span>/payers/{payerId}/payments
 </code></pre>
 <p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição serão informados o ID do pagador, o valor dos produtos e o valor total recebido no corpo da requisição, conforme exemplo abaixo:</p>
 
 <p class="has-line-data" data-line-start="37" data-line-end="38"><img width="650" height="350" img src="https://iili.io/WX94cb.md.png" alt="N|Solid"></p>
+
+
+<h3 class="code-line" data-line-start=29 data-line-end=30 ><a id="1__Criao_de_usurio_29"></a>2 - Listagem de pagamentos realizados por usuário</h3>
+<p class="has-line-data" data-line-start="31" data-line-end="32">Para listagem de pagamentos do usuário, será feita uma requisição GET em:</p>
+<pre><code class="has-line-data" data-line-start="33" data-line-end="35" class="language-sh">http://localhost:<span class="hljsnumber">8080</span>/payers/{payerId}/payments
+</code></pre>
+<p class="has-line-data" data-line-start="35" data-line-end="36">Nessa requisição será informado o ID do pagador, conforme exemplo abaixo:</p>
+
+<p class="has-line-data" data-line-start="37" data-line-end="38"><img width="650" height="350" img src="https://iili.io/WXFiHg.md.png" alt="N|Solid"></p>
+
+<p class="has-line-data" data-line-start="37" data-line-end="38"><img width="650" height="350" img src="https://iili.io/WXFpfI.md.png" alt="N|Solid"></p>
+
+
+
 
 
 
