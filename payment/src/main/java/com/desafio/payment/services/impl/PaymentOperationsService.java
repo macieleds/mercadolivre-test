@@ -39,7 +39,7 @@ public class PaymentOperationsService implements PaymentOperations {
     @Override
     public List<PaymentFetchResponse> getPaymentsList(final Integer paymentId) {
         return paymentRepository.findByPayerId(paymentId).stream()
-                .map(mapper::fromEntitytoPaymentResponse2)
+                .map(mapper::fromEntitytoPaymentResponse)
                 .collect(Collectors.collectingAndThen(Collectors.toList(), e -> {
                     if (e.isEmpty()) throw new ResourceNotFoundException();
                     return e;

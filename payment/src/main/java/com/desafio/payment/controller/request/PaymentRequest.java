@@ -10,8 +10,6 @@ import javax.validation.constraints.Positive;
 @Setter
 public class PaymentRequest {
 
-    private Integer paymentId;
-
     @NotNull(message = "Products value are required.")
     @Positive(message = "Not a valid value.")
     private Integer productsValue;
