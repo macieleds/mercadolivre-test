@@ -26,7 +26,7 @@ moedas</li>
 <p class="has-line-data" data-line-start="25" data-line-end="28">A API expõe um endpoint que envia um pagamento, tomando como parâmetros o ID do pagador, o valor dos produtos e o valor total recebido e um endpoint que lista todos os pagamentos que um usuário realizou, de acordo com os critérios estabelecidos acima.
 <br>Esse tutorial orienta sobre as funcionalidades da API utilizando o [Postman] (https://www.postman.com/) para o envio de requisições.<br>
   
-<br>O projeto foi desenvolvida utilizando Java 17. Portanto, é importante que a API seja executada utilizando esta versão.<br>  
+<br>O projeto foi desenvolvido utilizando Java 17. Portanto, é importante que a API seja executada utilizando esta versão.<br>  
 
 <p class="has-line-data" data-line-start="37" data-line-end="38"><img width="550" height="400" img src="https://iili.io/WWb3dl.md.png" alt="N|Solid"></p>
 
